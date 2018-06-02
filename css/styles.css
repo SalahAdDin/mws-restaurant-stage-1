@@ -309,3 +309,32 @@ nav h1 a {
 #restaurant-hours td {
     color: #666;
 }
+
+@media screen and (min-width: 960px) {
+    .inside #maincontent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inside #restaurant-container,
+    .inside #reviews-container,
+    .inside #map-container {
+        flex: 1 1 auto;
+        max-width: 50%;
+        height: auto !important;
+    }
+
+    .inside #restaurant-container {
+        order: 0;
+    }
+
+    .inside #map-container {
+        order: 1;
+    }
+
+    .inside #reviews-container {
+        order: 2;
+        max-width: 100%;
+    }
+
+}
