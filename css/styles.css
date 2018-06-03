@@ -435,7 +435,7 @@ nav h1 a {
 
     #restaurants-list {
         grid-template-columns: 25% 25% 25% 25%;
-        grid-column-gap: 0.5%;
+        grid-column-gap: 0.2%;
     }
 
     #reviews-list {
@@ -447,7 +447,7 @@ nav h1 a {
 @media screen and (min-width: 1440px) {
     #restaurants-list {
         grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-column-gap: 0.5%;
+        grid-column-gap: 0;
     }
 
     #reviews-list {
